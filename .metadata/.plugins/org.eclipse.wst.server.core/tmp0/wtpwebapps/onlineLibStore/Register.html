@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>book1 page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="validation.js"></script> <!-- Include the JavaScript file here -->
+</head>
+<body>
+<div class="heading">
+    <h1 align="center">Online Book Store</h1>
+    <h2 align="center" >V . I . E . T</h2>
+</div>
+<br />
+<div style="margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+    <h2 align="center">
+        <form name="registrationForm" action="Register.jsp" onsubmit="return validateForm()">
+            <input type="text" name="s_name" placeholder="Enter Student Name"><br>
+            <input type="text" name="s_id" placeholder="Enter Student Id"><br>
+            <input type="password" name="s_pwd" placeholder="Enter Password"><br>
+            <input type="password" name="s_cpwd" placeholder="Enter Confirm Password"><br>
+            <input type="text" name="s_dept" placeholder="Enter Student Department"><br>
+            <input type="email" name="s_mail" placeholder="Enter Mail Id"><br>
+            <input type="text" name="s_address" placeholder="Enter your address"><br>
+            <input type="submit" value="Register">
+        </form>
+    </h2>
+</div>
+</body>
+</html>

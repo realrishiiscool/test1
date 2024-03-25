@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Books</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1 align="center">Online Library</h1>
+<h1 align="center">Four Books</h1>
+
+<div class="books">
+	<img src="book1.jpg" alt="Rich dad poor dad" width="300">
+    <h2 align="center">Rich dad poor dad</h2>
+    <p>Author: Robert T. Kiyosaki<br>
+    Published: April 1, 2000<br>
+    availability:20</p>
+</div>
+
+<div class="book">
+	<img src="book2.jpg" alt="Rich dad poor dad" width="300">
+    <h2>Sherlock Holmes: The Hound of the Baskervilles</h2>
+    <p>Author:  Arthur Conan Doyle<br>
+    Published: march 25th, 1902<br>
+    availability:20</p>
+</div>
+
+<div class="book">
+	<img src="book3.jpg" alt="Rich dad poor dad" width="300">
+    <h2>Jurassic Park</h2>
+    <p>Author: Michael Crichton<br>
+    Published: 20 November 1990<br>
+    availability:20
+    </p>
+    
+</div>
+
+<div class="book">
+	<img src="book4.jpg" alt="Rich dad poor dad" width="300">
+    <h2>Alice's Adventures in Wonderland</h2>
+    <p>Author:  Lewis Carroll<br>
+    Published: November 1865<br>
+    availability:20</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+
+Feb 17, 2024 14:35:13.73 NEW SESSION
+Feb 17, 2024 14:35:13.73 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 17, 2024 15:07:08.886 [9236:16752:0217/150708.885:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 17, 2024 15:19:30.573 [9236:16752:0217/151930.572:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:19:33.89 [9236:16752:0217/151933.089:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:23:39.931 [9236:16752:0217/152339.931:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 17, 2024 15:41:10.301 [9236:16752:0217/154110.301:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 17, 2024 15:41:16.957 [9236:16752:0217/154116.957:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:41:42.336 [9236:16752:0217/154142.336:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:41:47.429 [9236:16752:0217/154147.429:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:42:02.331 [9236:16752:0217/154202.331:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:42:08.901 [9236:16752:0217/154208.901:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:42:18.38 [9236:16752:0217/154218.038:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:51:51.297 [9236:16752:0217/155151.295:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+Feb 17, 2024 15:52:02.50 [9236:16752:0217/155202.049:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:52:10.46 [9236:16752:0217/155210.045:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:52:40.830 [9236:16752:0217/155240.830:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:52:45.957 [9236:16752:0217/155245.957:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:52:50.01 [9236:16752:0217/155250.000:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:53:27.553 [9236:16752:0217/155327.552:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 17, 2024 15:53:34.818 [9236:16752:0217/155334.818:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:54:13.617 [9236:16752:0217/155413.616:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 17, 2024 15:54:26.312 [9236:16752:0217/155426.312:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 17, 2024 15:54:59.858 [9236:16752:0217/155459.858:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+
+Feb 21, 2024 09:13:12.945 NEW SESSION
+Feb 21, 2024 09:13:12.946 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 21, 2024 09:22:03.767 [9528:20680:0221/092203.767:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 13:54:11.656 [9528:20680:0221/135411.655:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 21, 2024 13:54:11.798 [9528:12880:0221/135411.798:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Feb 21, 2024 13:54:18.674 [9528:20680:0221/135418.673:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:03:03.545 [9528:20680:0221/140303.544:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:03:49.160 [9528:20680:0221/140349.160:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:03:51.175 [9528:20680:0221/140351.175:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:16:52.897 [9528:20680:0221/141652.896:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:36:36.532 [9528:20680:0221/143636.531:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 21, 2024 14:36:36.555 [9528:5180:0221/143636.555:ERROR:device_event_log_impl.cc(192)] [14:36:36.552] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 14:36:36.568 [9528:5180:0221/143636.567:ERROR:device_event_log_impl.cc(192)] [14:36:36.561] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 21, 2024 14:36:38.575 [9528:20680:0221/143638.575:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:36:44.517 [9528:20680:0221/143644.517:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:36:47.626 [9528:20680:0221/143647.625:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:37:06.772 [9528:20680:0221/143706.771:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:37:09.818 [9528:20680:0221/143709.817:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:37:11.420 [9528:5180:0221/143711.419:ERROR:device_event_log_impl.cc(192)] [14:37:11.417] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 14:37:18.933 [9528:20680:0221/143718.932:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:37:25.479 [9528:20680:0221/143725.478:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:37:28.993 [9528:20680:0221/143728.992:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:43:38.654 [9528:20680:0221/144338.653:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:49:08.599 [9528:20680:0221/144908.598:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:53:38.626 [9528:20680:0221/145338.625:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:53:47.541 [9528:20680:0221/145347.541:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 14:58:08.641 [9528:20680:0221/145808.640:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 14:58:34.318 [9528:20680:0221/145834.318:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 21, 2024 15:02:38.658 [9528:20680:0221/150238.657:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:02:48.792 [9528:20680:0221/150248.792:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 21, 2024 15:02:55.986 [9528:20680:0221/150255.985:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:07:08.630 [9528:20680:0221/150708.630:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:07:16.433 [9528:20680:0221/150716.432:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 21, 2024 15:07:22.230 [9528:20680:0221/150722.230:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:14:08.632 [9528:20680:0221/151408.631:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:14:24.880 [9528:20680:0221/151424.879:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:14:51.737 [9528:20680:0221/151451.737:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:14:53.751 [9528:20680:0221/151453.750:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:15:02.958 [9528:20680:0221/151502.957:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:15:08.78 [9528:20680:0221/151508.077:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:18:38.649 [9528:20680:0221/151838.649:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:18:49.858 [9528:20680:0221/151849.858:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:18:54.443 [9528:20680:0221/151854.443:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:19:02.584 [9528:20680:0221/151902.583:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:19:04.601 [9528:20680:0221/151904.600:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:19:14.12 [9528:20680:0221/151914.011:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:19:17.140 [9528:20680:0221/151917.140:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:19:21.796 [9528:20680:0221/151921.796:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:23:08.630 [9528:20680:0221/152308.629:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:23:40.489 [9528:20680:0221/152340.488:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:29:08.626 [9528:20680:0221/152908.625:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:29:15.380 [9528:20680:0221/152915.380:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 21, 2024 15:29:20.984 [9528:20680:0221/152920.983:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:29:23.00 [9528:20680:0221/152922.999:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:29:26.107 [9528:20680:0221/152926.106:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:29:30.843 [9528:20680:0221/152930.843:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:29:34.18 [9528:20680:0221/152934.017:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:31:01.966 [9528:20680:0221/153101.966:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 15:34:08.629 [9528:20680:0221/153408.628:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 15:34:32.902 [9528:20680:0221/153432.902:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 17:51:25.278 [9528:20680:0221/175125.277:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 21, 2024 17:51:38.618 [9528:5180:0221/175138.617:ERROR:device_event_log_impl.cc(192)] [17:51:38.613] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 17:52:12.841 [9528:5180:0221/175212.841:ERROR:device_event_log_impl.cc(192)] [17:52:12.838] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 17:54:09.303 [9528:20680:0221/175409.302:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 19:16:49.233 [9528:20680:0221/191649.232:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 21, 2024 19:16:49.526 [9528:10924:0221/191649.526:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Feb 21, 2024 19:16:53.406 [9528:5180:0221/191653.406:ERROR:device_event_log_impl.cc(192)] [19:16:53.404] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 19:16:54.87 [9528:5180:0221/191654.087:ERROR:device_event_log_impl.cc(192)] [19:16:54.085] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 19:27:19.384 [9528:5180:0221/192719.384:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Feb 21, 2024 19:34:00.160 [9528:20680:0221/193400.159:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 20:07:27.04 [9528:20680:0221/200727.004:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 21, 2024 20:07:31.289 [9528:5180:0221/200731.289:ERROR:device_event_log_impl.cc(192)] [20:07:31.286] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 20:22:41.477 [9528:20680:0221/202241.477:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 21, 2024 21:37:23.202 [9528:20680:0221/213723.202:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 21, 2024 21:37:26.225 [9528:5180:0221/213726.225:ERROR:device_event_log_impl.cc(192)] [21:37:26.223] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 21:39:45.461 [9528:5180:0221/213945.460:ERROR:device_event_log_impl.cc(192)] [21:39:45.453] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 22, 2024 18:31:49.596 NEW SESSION
+Feb 22, 2024 18:31:49.597 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 22, 2024 18:32:48.540 [13200:5012:0222/183248.539:ERROR:device_event_log_impl.cc(192)] [18:32:48.535] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 22, 2024 18:39:28.206 [13200:5012:0222/183928.205:ERROR:device_event_log_impl.cc(192)] [18:39:28.198] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 22, 2024 18:39:28.256 [13200:5012:0222/183928.255:ERROR:device_event_log_impl.cc(192)] [18:39:28.250] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 22, 2024 18:40:25.47 [13200:5012:0222/184025.047:ERROR:device_event_log_impl.cc(192)] [18:40:25.039] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 22, 2024 18:40:25.110 [13200:5012:0222/184025.109:ERROR:device_event_log_impl.cc(192)] [18:40:25.098] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 22, 2024 18:52:02.177 [13200:5012:0222/185202.177:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Feb 22, 2024 18:52:50.241 [13200:5012:0222/185250.241:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Feb 22, 2024 19:20:29.409 [13200:5012:0222/192029.408:ERROR:device_event_log_impl.cc(192)] [19:20:29.406] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 23, 2024 17:36:56.182 NEW SESSION
+Feb 23, 2024 17:36:56.183 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 28, 2024 10:08:44.200 NEW SESSION
+Feb 28, 2024 10:08:44.200 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 28, 2024 10:15:19.46 [10772:14864:0228/101519.045:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Feb 28, 2024 10:15:40.57 [10772:14864:0228/101540.057:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 10:17:21.82 [10772:4540:0228/101721.082:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Feb 28, 2024 10:18:21.811 [10772:14864:0228/101821.811:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 10:18:23.806 [10772:14864:0228/101823.805:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 10:18:34.122 [10772:14864:0228/101834.120:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 10:35:09.981 [10772:4540:0228/103509.981:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Unsupported URL scheme"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+Feb 28, 2024 10:53:57.580 [10772:14864:0228/105357.579:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:02:45.285 [10772:4540:0228/110245.284:ERROR:device_event_log_impl.cc(192)] [11:02:45.282] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 28, 2024 11:02:45.311 [10772:4540:0228/110245.311:ERROR:device_event_log_impl.cc(192)] [11:02:45.309] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Feb 28, 2024 11:13:27.564 [10772:14864:0228/111327.563:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:14:09.223 [10772:14864:0228/111409.223:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 28, 2024 11:22:14.836 [10772:14864:0228/112214.835:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:27:04.727 [10772:14864:0228/112704.727:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -109
+Feb 28, 2024 11:28:02.716 [10772:14864:0228/112802.714:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:31:55.310 [10772:14864:0228/113155.310:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:36:44.949 [10772:14864:0228/113644.948:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:40:59.699 [10772:14864:0228/114059.699:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:41:04.206 [10772:14864:0228/114104.206:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:41:58.719 [10772:14864:0228/114158.719:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 28, 2024 11:45:16.613 [10772:14864:0228/114516.612:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:46:16.349 [10772:14864:0228/114616.349:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 28, 2024 11:46:21.42 [10772:14864:0228/114621.041:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Feb 28, 2024 11:47:08.942 [10772:14864:0228/114708.942:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Feb 28, 2024 11:47:26.29 [10772:14864:0228/114726.029:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:47:28.35 [10772:14864:0228/114728.035:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Feb 28, 2024 11:48:11.43 [10772:14864:0228/114811.043:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Feb 28, 2024 11:48:14.306 [10772:14864:0228/114814.306:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:48:19.206 [10772:14864:0228/114819.206:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:48:23.316 [10772:14864:0228/114823.315:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Feb 28, 2024 11:48:56.160 [10772:14864:0228/114856.159:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -7
+Feb 28, 2024 12:06:55.75 [10772:14864:0228/120655.075:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+
+Mar 01, 2024 14:15:00.313 NEW SESSION
+Mar 01, 2024 14:15:00.313 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 01, 2024 14:15:58.162 [11540:10352:0301/141558.162:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Mar 01, 2024 14:16:34.702 [11540:9376:0301/141634.701:ERROR:device_event_log_impl.cc(192)] [14:16:34.694] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Mar 01, 2024 14:16:34.767 [11540:9376:0301/141634.766:ERROR:device_event_log_impl.cc(192)] [14:16:34.756] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Mar 01, 2024 14:53:33.199 [11540:10352:0301/145333.198:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 01, 2024 15:04:02.344 [11540:10352:0301/150402.343:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 01, 2024 15:04:08.728 [11540:10352:0301/150408.728:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 01, 2024 15:16:07.843 [11540:9376:0301/151607.842:ERROR:event_ack_data.cc(48)] StartExternalRequest failed: 2
+Mar 01, 2024 15:22:13.223 [11540:10352:0301/152213.222:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 01, 2024 15:28:35.272 [11540:10352:0301/152835.272:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -331
+Mar 01, 2024 18:31:55.495 [11540:9376:0301/183155.494:ERROR:device_event_log_impl.cc(192)] [18:31:55.495] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Mar 01, 2024 18:31:55.575 [11540:9376:0301/183155.575:ERROR:device_event_log_impl.cc(192)] [18:31:55.575] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Mar 01, 2024 18:34:25.286 [11540:10352:0301/183425.285:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 01, 2024 21:18:29.510 [11540:10352:0301/211829.510:ERROR:registration_request.cc(291)] Registration response error message: PHONE_REGISTRATION_ERROR
+Mar 01, 2024 21:18:29.511 [11540:10352:0301/211829.511:ERROR:registration_request.cc(291)] Registration response error message: PHONE_REGISTRATION_ERROR
+Mar 01, 2024 21:18:29.512 [11540:10352:0301/211829.511:ERROR:registration_request.cc(291)] Registration response error message: PHONE_REGISTRATION_ERROR
+Mar 01, 2024 21:19:20.23 [11540:9376:0301/211920.023:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+Mar 01, 2024 21:41:17.666 [11540:10352:0301/214117.665:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 01, 2024 21:48:22.236 [11540:9376:0301/214822.235:ERROR:device_event_log_impl.cc(192)] [21:48:22.233] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Mar 06, 2024 11:53:38.626 NEW SESSION
+Mar 06, 2024 11:53:38.627 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 06, 2024 11:53:53.787 [15144:12208:0306/115353.787:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 06, 2024 11:53:59.306 [15144:12208:0306/115359.306:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Mar 06, 2024 11:53:59.307 [15144:12208:0306/115359.307:ERROR:registration_request.cc(274)] Registration URL fetching failed.
+Mar 06, 2024 11:54:02.399 [15144:12208:0306/115402.399:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 06, 2024 11:55:19.396 [15144:12208:0306/115519.395:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 06, 2024 11:55:40.392 [15144:12208:0306/115540.392:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 06, 2024 11:55:42.769 [15144:12208:0306/115542.769:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+Mar 06, 2024 12:05:40.920 NEW SESSION
+Mar 06, 2024 12:05:40.920 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 06, 2024 13:47:53.893 NEW SESSION
+Mar 06, 2024 13:47:53.893 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 08, 2024 17:44:07.839 NEW SESSION
+Mar 08, 2024 17:44:07.839 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 11, 2024 13:36:42.689 NEW SESSION
+Mar 11, 2024 13:36:42.690 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 11, 2024 13:36:55.700 [5248:7052:0311/133655.700:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 13:37:26.293 [5248:7052:0311/133726.292:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 13:38:18.11 [5248:7052:0311/133818.010:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 13:39:54.438 [5248:7052:0311/133954.437:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Mar 11, 2024 13:58:14.382 [5248:13520:0311/135814.381:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+Mar 11, 2024 15:16:21.760 [5248:7052:0311/151621.760:ERROR:connection_factory_impl.cc(478)] ConnectionHandler failed with net error: -2
+Mar 11, 2024 15:39:26.662 [5248:13520:0311/153926.660:ERROR:device_event_log_impl.cc(192)] [15:39:26.653] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Mar 11, 2024 15:39:26.725 [5248:13520:0311/153926.724:ERROR:device_event_log_impl.cc(192)] [15:39:26.713] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+
+Mar 12, 2024 13:18:33.386 NEW SESSION
+Mar 12, 2024 13:18:33.386 [3644:10888:0312/131833.383:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:33.390 [3644:10888:0312/131833.389:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:33.432 [3644:10888:0312/131833.432:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:33.525 [3644:10888:0312/131833.524:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:33.529 [3644:10888:0312/131833.528:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:33.591 [3644:10888:0312/131833.591:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:18:36.809 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 12, 2024 13:18:38.184 [3644:10888:0312/131838.184:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:23:35.205 [3644:10888:0312/132335.205:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:23:39.133 [3644:10888:0312/132339.132:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:23:40.492 [3644:10888:0312/132340.491:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 12, 2024 13:29:33.466 [3644:10888:0312/132933.466:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Mar 12, 2024 19:40:26.268 NEW SESSION
+Mar 12, 2024 19:40:26.269 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 12, 2024 19:40:32.687 [10684:10964:0312/194032.687:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+Mar 12, 2024 20:18:23.968 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 12, 2024 20:19:27.671 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 12, 2024 20:19:45.642 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 12, 2024 20:21:42.97 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Mar 16, 2024 13:55:37.588 NEW SESSION
+Mar 16, 2024 13:55:37.588 [15708:15612:0316/135537.586:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:37.591 [15708:15612:0316/135537.590:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:37.711 [15708:15612:0316/135537.711:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:37.741 [15708:15612:0316/135537.740:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:37.744 [15708:15612:0316/135537.743:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:38.258 [15708:15612:0316/135538.258:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+Mar 16, 2024 13:55:39.924 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Mar 16, 2024 13:55:57.625 [15708:15612:0316/135557.625:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.

@@ -1,0 +1,28 @@
+1 database elib
+3 tables 
+1st table
+CREATE TABLE Book (
+id INT PRIMARY KEY,
+name VARCHAR(255),
+author VARCHAR(255),
+publish_date DATE,
+status INT DEFAULT 20
+);
+2nd table
+create table stdt(
+sid int,sname varchar(30),
+cpwd varchar(30),
+sdept varchar(10),
+syear varchar(10),
+scont varchar(12),
+semail varchar(30)
+);
+3rd table 
+CREATE TABLE orders (
+issue_date DATE,
+return_date DATE,
+sid INT,
+bid INT,
+FOREIGN KEY (sid) REFERENCES stdt(sid),
+FOREIGN KEY (bid) REFERENCES Book(id)
+);

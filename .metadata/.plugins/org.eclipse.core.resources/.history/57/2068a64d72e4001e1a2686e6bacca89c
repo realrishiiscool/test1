@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="login.jsp">
+Acc no:<input type="text" name="t1"><br><br>
+pwd:<input type="password" name="t2">
+<input type="submit">
+</form>
+<a href="register.html">
+register
+</a>
+</body>
+</html>

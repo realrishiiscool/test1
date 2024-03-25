@@ -1,0 +1,17 @@
+127.0.0.1 - - [04/Mar/2024:19:49:48 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [04/Mar/2024:19:49:48 +0530] "GET /webproject/NewFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:49:49 +0530] "GET /webproject/style.css HTTP/1.1" 200 1590
+127.0.0.1 - - [04/Mar/2024:19:49:49 +0530] "GET /webproject/test.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:49:49 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:49:56 +0530] "GET /webproject/check.jsp?t1=&t2= HTTP/1.1" 302 -
+127.0.0.1 - - [04/Mar/2024:19:49:56 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:49:56 +0530] "GET /webproject/signup.html? HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:49:57 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:49:58 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:51:44 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:51:46 +0530] "GET /webproject/NewFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:51:46 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:51:47 +0530] "GET /webproject/NewFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:51:47 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [04/Mar/2024:19:51:47 +0530] "GET /webproject/NewFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [04/Mar/2024:19:51:47 +0530] "GET /cart.json HTTP/1.1" 404 760

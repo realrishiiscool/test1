@@ -1,0 +1,113 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    
+<%@ page import="java.sql.*" %>
+<%@ page import="javax.sql.*" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>book1 page</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+
+<div class="heading">
+		<h1 align="center">Online Book Store</h1>
+		<h2 align="center" >V . I . E . T</h2>
+		
+</div>
+<br />
+
+<%
+	String b_id = request.getParameter("b_id");
+	String imageSource = request.getParameter("image");
+%>
+
+
+<div class="display1">
+	<div class="image-block1">
+			
+			<img src="<%= imageSource %>" alt="Image 1">
+			
+			
+	</div>
+		
+		
+
+		
+<%
+int bId,bStatus=0;
+String bName="",bAuthor="",bEdition="";
+float bprice=0.0f;
+
+
+	
+try{
+			
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library","root","1234");
+	Statement st=con.createStatement();
+				
+	String query = "SELECT * FROM book WHERE b_id = " + b_id;
+				
+	ResultSet rs = st.executeQuery(query);
+				
+				
+				
+	      if (rs.next()) {
+		 // Retrieve data from the result set
+						 bId = rs.getInt("b_id");
+				         bName = rs.getString("b_name");
+				         bAuthor = rs.getString("b_author");
+				         bEdition = rs.getString("b_edition");
+				         bStatus = rs.getInt("b_status");
+				       	 bprice = rs.getFloat("b_price");
+				      // Set the values in session
+				      	 session.setAttribute("bId", bId);
+				         session.setAttribute("bName", bName);
+				         session.setAttribute("bAuthor", bAuthor);
+				         session.setAttribute("bEdition", bEdition);
+				         session.setAttribute("bStatus", bStatus);
+				         session.setAttribute("bprice",bprice);
+				         
+				 }
+		} catch (Exception e) {
+		   out.println(e);
+		}
+		
+
+		
+		
+		
+		
+%>
+
+
+		
+	<div class="book_details">
+		<h2>Book Name: <%=bName %></h2>
+		<h2>Book Author: <%=bAuthor %></h2>
+		<h2>Book Edition: <%=bEdition %> </h2>
+		<h2>Available Copies: <%=bStatus %></h2>
+		<h2>Price: <%=bprice %>/-</h2>
+		
+		<div class="btn">
+		<form action="S_login.html">
+		<input type="submit" name="b" value="Buy" <% if(bStatus ==0){ %> disabled <% }%> />
+		</form>
+		</div>
+		
+	</div>
+	
+
+</div>
+
+
+
+</body>
+</html>	

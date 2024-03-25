@@ -1,0 +1,17 @@
+127.0.0.1 - - [02/Mar/2024:21:54:50 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [02/Mar/2024:21:54:50 +0530] "GET /webproject/NewFile.html HTTP/1.1" 304 -
+127.0.0.1 - - [02/Mar/2024:21:54:50 +0530] "GET /webproject/style.css HTTP/1.1" 200 1217
+127.0.0.1 - - [02/Mar/2024:21:54:51 +0530] "GET /webproject/image.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [02/Mar/2024:21:54:52 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:54:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [02/Mar/2024:21:55:04 +0530] "GET /webproject/signup.html? HTTP/1.1" 304 -
+127.0.0.1 - - [02/Mar/2024:21:55:04 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:55:21 +0530] "GET /webproject/t.jsp?t1=9&t2=S.NIkhila&t3=n%40123&t4=n%40123 HTTP/1.1" 302 -
+127.0.0.1 - - [02/Mar/2024:21:55:21 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:56:40 +0530] "GET /webproject/home.html HTTP/1.1" 200 1605
+127.0.0.1 - - [02/Mar/2024:21:56:40 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:56:55 +0530] "GET /webproject/check.jsp?t1=Minato&t2=k%40123 HTTP/1.1" 200 172
+127.0.0.1 - - [02/Mar/2024:21:56:55 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:58:53 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [02/Mar/2024:21:59:01 +0530] "GET /webproject/check.jsp?t1=Minato&t2=k%40123 HTTP/1.1" 200 172
+127.0.0.1 - - [02/Mar/2024:21:59:01 +0530] "GET /cart.json HTTP/1.1" 404 760

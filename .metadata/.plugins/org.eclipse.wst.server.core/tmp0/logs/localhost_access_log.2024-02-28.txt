@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/Feb/2024:10:08:40 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [28/Feb/2024:10:08:41 +0530] "GET /webproject/NewFile.html HTTP/1.1" 200 444
+127.0.0.1 - - [28/Feb/2024:10:08:42 +0530] "GET /webproject/style.css HTTP/1.1" 200 1219
+127.0.0.1 - - [28/Feb/2024:10:08:43 +0530] "GET /webproject/image.jpg HTTP/1.1" 200 96906
+127.0.0.1 - - [28/Feb/2024:10:08:43 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [28/Feb/2024:10:08:43 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [28/Feb/2024:10:09:09 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [28/Feb/2024:10:09:09 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [28/Feb/2024:10:09:17 +0530] "GET /webproject/signup.html? HTTP/1.1" 200 1589
+127.0.0.1 - - [28/Feb/2024:10:09:18 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [28/Feb/2024:10:09:50 +0530] "GET /webproject/t.jsp?t1=4413&t2=R.Vandana&t3=vandana%40123&t4=vandana%40123 HTTP/1.1" 302 -
+127.0.0.1 - - [28/Feb/2024:10:09:50 +0530] "GET /cart.json HTTP/1.1" 404 760
+127.0.0.1 - - [28/Feb/2024:10:11:26 +0530] "GET /webproject/home.html HTTP/1.1" 200 1605
+127.0.0.1 - - [28/Feb/2024:10:11:26 +0530] "GET /cart.json HTTP/1.1" 404 760

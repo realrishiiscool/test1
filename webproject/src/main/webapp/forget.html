@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-enter Password</title>
+</head>
+<style>
+body
+ {
+ 	background-image:url("forgotpwd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+}
+
+form
+ {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color:rgb(255,255,255,0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label 
+{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"]{
+	width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] 
+{
+    width: 95%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover 
+{
+    background-color: #45a049;
+}
+
+</style>
+<body>
+    <!-- Your HTML content goes here -->
+    <h1>Welcome to Password Re-entry Page</h1>
+    <form action="forgot.jsp" method="post">
+    <h3 style=color:white;>
+    	<label for="username">username:</label>
+        <input type="text" id="username" name="t1" required>
+        <label for="Phoneno">Phoneno:</label>
+        <input type="text" id="phoneno" name="t2" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="t3" required>
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="t4" required>
+        <input type="submit" value="Submit">
+    </h3>    
+    </form>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Registration Form</title>
+<script src="validation.js"></script> <!-- Include the JavaScript file here -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<div class="heading">
+    <h1>SRV RAILWAYS</h1>
+    <h2>BOOK YOUR ONLINE TICKETS HERE</h2>
+</div>
+
+<hr>
+<form action="register.jsp" method="post" onsubmit="return validateForm()">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="t1" required>
+  
+  <label for="debit">Debit Card:</label>
+  <input type="text" id="debit" name="t2">
+  
+  <label for="credit">Credit Card:</label>
+  <input type="text" id="credit" name="t3">
+  
+  <label for="phoneno">Phone Number:</label>
+  <input type="text" id="phoneno" name="t4">
+  
+  <label for="mail">Email:</label>
+  <input type="email" id="mail" name="t6">
+  
+  <label for="age">Age:</label>
+  <input type="text" id="age" name="t7">
+  
+  <label for="pin">PIN:</label>
+  <input type="text" id="pin" name="t5">
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="t8" required>
+  
+  <label for="confirm_password">Confirm Password:</label>
+  <input type="password" id="confirm_password" name="t9" required>
+  
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>

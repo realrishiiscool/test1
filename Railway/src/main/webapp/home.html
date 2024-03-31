@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Select Train and Date</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+        select, input[type="date"], input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<div class="heading">
+    <h1>SRV RAILWAYS</h1>
+    <h2>BOOK YOUR ONLINE TICKETS HERE</h2>
+</div>
+
+<hr>
+<div>
+    <h2>Select Train and Date</h2>
+    <form action="booking.jsp" method="GET">
+        <label for="trainSelect">Choose a train:</label>
+        <select id="trainSelect" name="trainNumber">
+            <option value="12345">Dorunto Express</option>
+            <option value="23456">Godavari </option>
+            <option value="34567">Simhardhi </option>
+        </select>
+        <br><br>
+        <label for="dateSelect">Choose a date:</label>
+        <input type="date" id="dateSelect" name="selectedDate" min="" max="">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+    <script>
+        // Function to format the date as YYYY-MM-DD
+        function formatDate(date) {
+            var dd = String(date.getDate()).padStart(2, '0');
+            var mm = String(date.getMonth() + 1).padStart(2, '0'); // January is 0!
+            var yyyy = date.getFullYear();
+            return yyyy + '-' + mm + '-' + dd;
+        }
+
+        // Set the minimum date to April 1st
+        var minDate = new Date();
+        minDate.setDate(1); // Set day to 1st
+        minDate.setMonth(3); // Set month to April (zero-based index)
+        minDate = formatDate(minDate); // Format the date
+        document.getElementById("dateSelect").setAttribute("min", minDate);
+
+        // Set the maximum date to April 4th
+        var maxDate = new Date();
+        maxDate.setDate(4); // Set day to 4th
+        maxDate.setMonth(3); // Set month to April (zero-based index)
+        maxDate = formatDate(maxDate); // Format the date
+        document.getElementById("dateSelect").setAttribute("max", maxDate);
+    </script>
+</body>
+</html>

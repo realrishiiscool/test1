@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Registration</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    h1, h2, h3 {
+        color: #333;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"], select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .error-message {
+        color: red;
+        margin-top: 5px;
+    }
+
+    select option {
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+</style>
+
+<script>
+    function validateForm() {
+        var uname = document.forms["registrationForm"]["uname"].value;
+        var pwd = document.forms["registrationForm"]["pwd"].value;
+        var cpwd = document.forms["registrationForm"]["cpwd"].value;
+
+        if (uname == "" || pwd == "" || cpwd == "") {
+            alert("All fields are required.");
+            return false;
+        }
+
+        if (pwd != cpwd) {
+            alert("Passwords do not match.");
+            return false;
+        }
+
+        return true;
+    }
+</script>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Online Job Portal</h1>
+    <h2>(VIET)</h2>
+    <hr>
+    <div align="center">
+        <h2>User Registration</h2>
+        <form name="registrationForm" action="user_reg.jsp" onsubmit="return validateForm()">
+            <h3>
+                Username: <input type="text" name="uname"><br>
+                Password: <input type="password" name="pwd"><br>
+                Confirm Password: <input type="password" name="cpwd"><br>
+                Gender:
+                <select name="gender" style="width: 100%;">
+                    <option value="Male" style="font-size: 16px;">Male</option>
+                    <option value="Female" style="font-size: 16px;">Female</option>
+                </select><br>
+                Age: <input type="text" name="age"><br>
+                Contact Number: <input type="text" name="contact"><br>
+                Email ID: <input type="email" name="email"><br>
+                Address: <input type="text" name="address"><br>
+
+                <fieldset style="margin-bottom:10px">
+                    <legend>Academic Details</legend>
+                    Choose your Qualification:
+                    <select name="qualified" style="width: 100%;">
+                        <option value="10th SSC" style="font-size: 16px;">10th SSC</option>
+                        <option value="Inter" style="font-size: 16px;">Inter</option>
+                        <option value="Diploma" style="font-size: 16px;">Diploma</option>
+                        <option value="BE/BTech" style="font-size: 16px;">BE/BTech</option>
+                        <option value="MTech" style="font-size: 16px;">MTech</option>
+                        <option value="PhD" style="font-size: 16px;">PhD</option>
+                        <option value="Others" style="font-size: 16px;">Others</option>
+                    </select><br>
+                    Percentage: <input type="text" name="percent"><br>
+                    Year of Passout: <input type="text" name="pass"><br>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+            </h3>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

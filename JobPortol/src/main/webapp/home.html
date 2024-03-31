@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Job Portal (VIET)</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 10%;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div align="center">
+    <h1>Online Job Portal </h1>
+    <h2>(VIET)</h2>
+    <hr><br>
+  </div>
+
+  <div align="center">
+    <h2>User Login</h2>
+    <form action="login.jsp">
+      <h3>
+       
+        <input type="text" name="uname" id="uname" placeholder="Enter Username "><br>
+        
+        <input type="password" name="pwd" id="pwd" placeholder="Enter Password"><br>
+        <input type="submit" value="Login">
+        <div id="userError" class="error"></div>
+      </h3>
+    </form>
+    <button onclick="window.location.href = 'user_reg.html'">User Registration</button>
+  </div>
+</div>
+
+</body>
+</html>

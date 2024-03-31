@@ -65,20 +65,13 @@ Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/library"
 
 Statement st=con.createStatement();
 
-
-
 	int s = st.executeUpdate("UPDATE book SET b_status=" + bStatus + " WHERE b_id=" + bId);
-
-
-	
 
 }
 catch(Exception e)
 {
 	out.println("..........errorrr......................."+e);
 }
-
-
 
 
 %>

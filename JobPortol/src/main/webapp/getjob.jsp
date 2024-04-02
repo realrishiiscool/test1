@@ -62,7 +62,7 @@
        Thank you for considering employment opportunities with us.<br>
        Best regards,<br>
        The Hiring Team</p>
-   
+   <a href="home.html">back</a>
 </div>
 </body>
 </html>

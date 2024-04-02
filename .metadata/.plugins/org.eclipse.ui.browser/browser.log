@@ -232,3 +232,101 @@ Mar 16, 2024 13:55:37.744 [15708:15612:0316/135537.743:ERROR:fallback_task_provi
 Mar 16, 2024 13:55:38.258 [15708:15612:0316/135538.258:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
 Mar 16, 2024 13:55:39.924 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
 Mar 16, 2024 13:55:57.625 [15708:15612:0316/135557.625:ERROR:fallback_task_provider.cc(126)] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+Apr 01, 2024 12:02:52.765 NEW SESSION
+Apr 01, 2024 12:02:52.765 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Apr 01, 2024 12:05:44.390 [2468:19396:0401/120544.389:ERROR:device_event_log_impl.cc(195)] [12:05:44.388] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 01, 2024 12:05:44.408 [2468:19396:0401/120544.408:ERROR:device_event_log_impl.cc(195)] [12:05:44.406] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Apr 01, 2024 12:07:15.956 [2468:9012:0401/120715.955:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:07:42.804 [2468:9012:0401/120742.804:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:07:43.319 [2468:9012:0401/120743.319:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:07:45.924 [2468:9012:0401/120745.924:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:07:50.307 [2468:9012:0401/120750.306:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:07:53.798 [2468:9012:0401/120753.798:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:08:22.852 [2468:9012:0401/120822.851:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:08:35.150 [2468:9012:0401/120835.150:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:08:55.330 [2468:9012:0401/120855.329:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:09:08.433 [2468:9012:0401/120908.433:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:09:09.734 [2468:19396:0401/120909.734:ERROR:device_event_log_impl.cc(195)] [12:09:09.733] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 01, 2024 12:09:26.332 [2468:9012:0401/120926.331:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:09:29.303 [2468:9012:0401/120929.303:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:10:16.823 [2468:9012:0401/121016.822:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:10:24.113 [2468:9012:0401/121024.112:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:10:37.860 [2468:9012:0401/121037.859:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:10:51.297 [2468:9012:0401/121051.297:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:10:59.873 [2468:9012:0401/121059.872:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:11:08.824 [2468:9012:0401/121108.824:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:11:13.304 [2468:9012:0401/121113.303:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:11:14.691 [2468:19396:0401/121114.691:ERROR:device_event_log_impl.cc(195)] [12:11:14.687] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 01, 2024 12:11:27.340 [2468:9012:0401/121127.339:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:11:43.776 [2468:9012:0401/121143.775:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:12:29.930 [2468:9012:0401/121229.930:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:12:32.853 [2468:9012:0401/121232.852:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:12:39.336 [2468:9012:0401/121239.335:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:12:56.716 [2468:9012:0401/121256.715:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:13:09.362 [2468:9012:0401/121309.360:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:13:32.854 [2468:9012:0401/121332.854:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:13:43.475 [2468:9012:0401/121343.474:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:13:45.494 [2468:9012:0401/121345.494:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:14:16.482 [2468:9012:0401/121416.481:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:14:41.958 [2468:9012:0401/121441.957:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:14:46.121 [2468:19396:0401/121446.120:ERROR:interface_endpoint_client.cc(707)] Message 1 rejected by interface blink.mojom.WidgetHost
+Apr 01, 2024 12:14:50.02 [2468:9012:0401/121450.001:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:14:51.326 [2468:19396:0401/121451.326:ERROR:device_event_log_impl.cc(195)] [12:14:51.324] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Apr 01, 2024 12:15:14.842 [2468:9012:0401/121514.842:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:15:17.625 [2468:9012:0401/121517.624:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:15:21.933 [2468:9012:0401/121521.932:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:15:25.332 [2468:9012:0401/121525.331:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:15:28.431 [2468:9012:0401/121528.431:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:15:51.363 [2468:9012:0401/121551.362:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:15:58.831 [2468:9012:0401/121558.830:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:16:19.833 [2468:9012:0401/121619.832:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:16:24.315 [2468:9012:0401/121624.315:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:16:38.841 [2468:9012:0401/121638.840:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:16:40.878 [2468:9012:0401/121640.877:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:17:03.26 [2468:9012:0401/121703.026:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:17:05.42 [2468:9012:0401/121705.042:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:17:26.322 [2468:9012:0401/121726.321:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:17:30.823 [2468:9012:0401/121730.822:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:18:04.718 [2468:9012:0401/121804.717:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:18:18.845 [2468:13616:0401/121818.844:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 01, 2024 12:18:18.856 [2468:13616:0401/121818.855:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 01, 2024 12:18:27.868 [2468:9012:0401/121827.867:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:18:27.871 [2468:11284:0401/121827.870:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:18:30.426 [2468:9012:0401/121830.425:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:18:30.428 [2468:15988:0401/121830.427:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:18:34.341 [2468:9012:0401/121834.339:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:18:34.342 [2468:15528:0401/121834.341:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:18:37.867 [2468:9012:0401/121837.866:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:18:37.869 [2468:15528:0401/121837.868:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:18:52.322 [2468:9012:0401/121852.321:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:19:00.877 [2468:9012:0401/121900.876:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:19:00.883 [2468:15988:0401/121900.882:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:20:21.607 [2468:9012:0401/122021.606:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:20:33.394 [2468:15988:0401/122033.393:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 01, 2024 12:20:33.400 [2468:15988:0401/122033.400:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 01, 2024 12:20:33.405 [2468:15988:0401/122033.404:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Apr 01, 2024 12:21:05.604 [2468:9012:0401/122105.603:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:21:05.605 [2468:15988:0401/122105.604:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Apr 01, 2024 12:21:07.619 [2468:9012:0401/122107.617:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:21:34.143 [2468:9012:0401/122134.143:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:21:34.145 [2468:11284:0401/122134.144:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Apr 01, 2024 12:21:36.165 [2468:9012:0401/122136.164:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:24:04.315 [2468:9012:0401/122404.315:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Apr 01, 2024 12:34:26.318 [2468:9012:0401/123426.317:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Apr 01, 2024 12:34:31.270 [2468:9012:0401/123431.269:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:34:33.286 [2468:9012:0401/123433.286:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:34:55.361 [2468:9012:0401/123455.360:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:35:00.686 [2468:9012:0401/123500.685:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:35:01.613 [2468:11284:0401/123501.612:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:35:05.866 [2468:9012:0401/123505.865:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:35:05.868 [2468:11284:0401/123505.867:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:35:10.674 [2468:9012:0401/123510.674:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:35:29.872 [2468:9012:0401/123529.871:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:35:29.876 [2468:11284:0401/123529.875:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:35:42.837 [2468:9012:0401/123542.836:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:35:42.839 [2468:15528:0401/123542.838:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:36:05.00 [2468:9012:0401/123604.999:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -106
+Apr 01, 2024 12:36:18.371 [2468:13616:0401/123618.370:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Apr 01, 2024 12:36:18.887 [2468:9012:0401/123618.886:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+Apr 01, 2024 12:36:18.891 [2468:11284:0401/123618.890:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)

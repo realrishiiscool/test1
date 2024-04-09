@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+     <script>
+        function validateForm() {
+            var a_name = document.forms["registrationForm"]["a_name"].value.trim();
+            var age = document.forms["registrationForm"]["age"].value.trim();
+            var pwd = document.forms["registrationForm"]["pwd"].value;
+            var c_pwd = document.forms["registrationForm"]["c_pwd"].value;
+            var mail = document.forms["registrationForm"]["mail"].value.trim();
+            var address = document.forms["registrationForm"]["address"].value.trim();
+            var contact = document.forms["registrationForm"]["contact"].value.trim();
+            var balance = document.forms["registrationForm"]["balance"].value.trim();
+            if (a_name === "" || age === "" || pwd === "" || c_pwd === "" || mail === "" || address === "" || contact === "" || balance === "") {
+                alert("Please fill in all fields.");
+                return false;
+            }
+            if (isNaN(age) || parseInt(age) < 18) {
+                alert("Please enter a valid age (must be at least 18 years old).");
+                return false;
+            }
+            if (pwd !== c_pwd) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            if (!mail.includes("@")) {
+                alert("Please enter a valid email address.");
+                return false;
+            }
+            if (isNaN(contact)) {
+                alert("Please enter a valid contact number.");
+                return false;
+            }
+            if (isNaN(balance) || parseInt(balance) < 0) {
+                alert("Please enter a valid initial balance (must be a non-negative number).");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
-
+    <div align="center" >
+        <h1>Online Bank</h1>
+        <h2>( V . I . E . T )</h2>
+    </div>
+    <hr>
+     <div align="center">
+        <h2>Registration Form</h2>
+        <form name="registrationForm" action="Register.jsp" onsubmit="return validateForm()">
+            <input type="text" name="a_name" placeholder="Enter Your Name"><br>
+            <input type="text" name="age" placeholder="Enter your age"><br>
+            <input type="password" name="pwd" placeholder="Enter Password"><br>
+            <input type="password" name="c_pwd" placeholder="Enter Confirm Password"><br>
+            <input type="email" name="mail" placeholder="Enter Mail Id"><br>
+            <input type="text" name="address" placeholder="Enter Address"><br>
+            <input type="text" name="contact" placeholder="Enter contact"><br>
+            <input type="text" name="balance" value="1000" placeholder="Enter Balance"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

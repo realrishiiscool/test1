@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 @SuppressWarnings("serial")
 public class Home extends HttpServlet{
 	
-	public void service(HttpServletResponse res,HttpServletRequest req) throws IOException {
+	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
 		
 		String s3;
 		HttpSession session=req.getSession();

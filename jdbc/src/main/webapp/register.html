@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+ .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+ }
+ .form-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+ }
+ .form-container label {
+    display: block;
+    margin-bottom: 10px;
+ }
+ .form-container input[type="text"],
+ .form-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ /* Submit button */
+ .form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+ .form-container input[type="submit"]:hover {
+    background-color: #45a049;
+ }
+ 
+
+</style>
+</head>
+<body>
+
+<form action="register.jsp" class="form-container">
+    <h1>Student Sign-up Page</h1>
+    <div>
+        <label for="t1">Student Roll Number:</label>
+        <input type="text" id="t1" name="t1">
+ 
+        <label for="t2">Student Name:</label>
+        <input type="text" id="t2" name="t2">
+ 
+        <label for="t3">Password:</label>
+        <input type="password" id="t3" name="t3">
+ 
+        <label for="t4">Confirm Password:</label>
+        <input type="password" id="t4" name="t4">
+    </div>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

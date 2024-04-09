@@ -330,3 +330,9 @@ Apr 01, 2024 12:36:05.00 [2468:9012:0401/123604.999:ERROR:connection_factory_imp
 Apr 01, 2024 12:36:18.371 [2468:13616:0401/123618.370:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
 Apr 01, 2024 12:36:18.887 [2468:9012:0401/123618.886:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
 Apr 01, 2024 12:36:18.891 [2468:11284:0401/123618.890:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+
+Apr 03, 2024 10:46:16.101 NEW SESSION
+Apr 03, 2024 10:46:16.101 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Apr 08, 2024 19:44:06.182 NEW SESSION
+Apr 08, 2024 19:44:06.182 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.

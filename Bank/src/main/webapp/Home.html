@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online Bank (home page)</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+   <script>
+        function validateForm() {
+            var a_cno = document.forms["loginForm"]["a_cno"].value;
+            var pwd = document.forms["loginForm"]["pwd"].value;
+            if (a_cno.trim() === "" || pwd.trim() === "") {
+                alert("Please enter both Account Number and Password.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+	<div>
+		<h1>Online Bank</h1>
+    <h2>( V . I . E . T )</h2>
+	</div>
+	  <hr>
+    <div class="container">
+        <form name="loginForm" action="Home.jsp" onsubmit="return validateForm()">
+            <input type="text" name="a_cno" placeholder="Enter Account Number"><br>
+            <input type="password" name="pwd" placeholder="Enter Password"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <button onclick="window.location.href = 'Register.html'">Register</button>
+    </div>
+</body>
+</html>

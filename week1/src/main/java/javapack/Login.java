@@ -17,7 +17,7 @@ public class Login extends HttpServlet {
 		HttpSession session=req.getSession();
 		session.setAttribute("un",s1);
 		PrintWriter out=res.getWriter();
-		if((s1.equals("rishi"))&&(s2.equals("1234"))) {
+		if((s1.equals("viet"))&&(s2.equals("1234"))) {
 			
 		res.sendRedirect("s234");
 		}else{
